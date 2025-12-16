@@ -6,59 +6,63 @@ const Index = () => {
   const tracks = [
     {
       id: 1,
-      title: "NGG ANTHEM",
-      album: "Street Chronicles",
-      duration: "3:45",
-      spotify: "https://open.spotify.com",
-      apple: "https://music.apple.com"
+      title: "Мой кайф",
+      album: "NGG Singles",
+      duration: "3:12",
+      spotify: "https://open.spotify.com/artist/friendlythug52",
+      apple: "https://music.apple.com",
+      youtube: "https://www.youtube.com/watch?v=example"
     },
     {
       id: 2,
-      title: "THUG LIFE 52",
-      album: "Street Chronicles",
-      duration: "4:12",
-      spotify: "https://open.spotify.com",
-      apple: "https://music.apple.com"
+      title: "Районы",
+      album: "NGG Singles",
+      duration: "2:58",
+      spotify: "https://open.spotify.com/artist/friendlythug52",
+      apple: "https://music.apple.com",
+      youtube: "https://www.youtube.com/watch?v=example"
     },
     {
       id: 3,
-      title: "URBAN VIBES",
-      album: "City Nights",
-      duration: "3:28",
-      spotify: "https://open.spotify.com",
-      apple: "https://music.apple.com"
+      title: "Не пара",
+      album: "NGG Singles",
+      duration: "3:24",
+      spotify: "https://open.spotify.com/artist/friendlythug52",
+      apple: "https://music.apple.com",
+      youtube: "https://www.youtube.com/watch?v=example"
     },
     {
       id: 4,
-      title: "STREET POETRY",
-      album: "City Nights",
-      duration: "4:01",
-      spotify: "https://open.spotify.com",
-      apple: "https://music.apple.com"
+      title: "52 улица",
+      album: "NGG Singles",
+      duration: "3:45",
+      spotify: "https://open.spotify.com/artist/friendlythug52",
+      apple: "https://music.apple.com",
+      youtube: "https://www.youtube.com/watch?v=example"
     }
   ];
 
   const albums = [
     {
       id: 1,
-      title: "Street Chronicles",
+      title: "NGG Микстейп",
       year: "2024",
-      tracks: 12,
-      cover: "https://placehold.co/300x300/1A1F2C/D4FF00?text=STREET+CHRONICLES"
+      tracks: 8,
+      cover: "https://placehold.co/300x300/1A1F2C/D4FF00?text=NGG"
     },
     {
       id: 2,
-      title: "City Nights",
+      title: "52 Район",
       year: "2023",
       tracks: 10,
-      cover: "https://placehold.co/300x300/1A1F2C/FF6B00?text=CITY+NIGHTS"
+      cover: "https://placehold.co/300x300/1A1F2C/FF6B00?text=52"
     },
     {
       id: 3,
-      title: "Underground",
+      title: "Friendly Thug",
       year: "2022",
-      tracks: 14,
-      cover: "https://placehold.co/300x300/1A1F2C/9b87f5?text=UNDERGROUND"
+      tracks: 12,
+      cover: "https://placehold.co/300x300/1A1F2C/9b87f5?text=FT"
     }
   ];
 
@@ -75,7 +79,7 @@ const Index = () => {
         <div className="relative z-10 text-center px-4">
           <div className="mb-8">
             <div className="inline-block px-6 py-2 bg-primary/20 border-2 border-primary rounded-lg mb-4">
-              <span className="text-primary font-bold text-sm tracking-widest">EST. 2020</span>
+              <span className="text-primary font-bold text-sm tracking-widest">РУССКИЙ РЭП • NGG</span>
             </div>
           </div>
           
@@ -90,7 +94,7 @@ const Index = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto font-medium">
-            УЛИЧНЫЙ АРТИСТ • МУЗЫКАЛЬНЫЙ ПОЭТ • NGG ДВИЖЕНИЕ
+            РУССКИЙ АРТИСТ • УЛИЧНАЯ КУЛЬТУРА • РЕАЛЬНЫЕ ИСТОРИИ
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center">
@@ -251,8 +255,8 @@ const Index = () => {
             <div className="w-64 h-64 mx-auto mb-8 rounded-full bg-gradient-to-br from-primary via-secondary to-accent p-1 overflow-hidden">
               <div className="w-full h-full rounded-full overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/485d23c4-32ff-40bc-84e6-b3f0b3aa803f/files/8361e873-8fd8-4b00-aca6-0d19ec258acc.jpg"
-                  alt="Friendly Thug 52"
+                  src="https://cdn.poehali.dev/projects/485d23c4-32ff-40bc-84e6-b3f0b3aa803f/files/073cf6f3-728e-48ab-a7ca-f785bdef4eee.jpg"
+                  alt="Friendly Thug 52 NGG"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -260,24 +264,25 @@ const Index = () => {
           </div>
           
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
-            Friendly Thug 52 — это голос улиц, который превращает городские истории в музыкальные шедевры. 
-            Его творчество соединяет энергию граффити, ритмы асфальта и поэзию повседневной жизни.
+            Friendly Thug 52 NGG — русский рэп-артист, представляющий уличную культуру и реальные истории. 
+            Его музыка отражает жизнь районов, честные эмоции и настоящий вайб российских улиц. 
+            Треки построены на живых битах и искренних текстах о том, что видит каждый день.
           </p>
           
           <div className="flex flex-wrap gap-6 justify-center items-center mt-12">
             <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">52</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">РЕЛИЗОВ</div>
+              <div className="text-4xl font-bold text-primary mb-2">30+</div>
+              <div className="text-sm text-muted-foreground uppercase tracking-wide">ТРЕКОВ</div>
             </div>
             <div className="h-16 w-px bg-border"></div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-secondary mb-2">10M+</div>
+              <div className="text-4xl font-bold text-secondary mb-2">5M+</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wide">ПРОСЛУШИВАНИЙ</div>
             </div>
             <div className="h-16 w-px bg-border"></div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-accent mb-2">2020</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wide">НАЧАЛО</div>
+              <div className="text-4xl font-bold text-accent mb-2">РОССИЯ</div>
+              <div className="text-sm text-muted-foreground uppercase tracking-wide">РАЙОН 52</div>
             </div>
           </div>
         </div>
